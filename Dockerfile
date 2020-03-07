@@ -1,3 +1,3 @@
-FROM python:2
+FROM 
 ADD helloWorld.py /
 CMD ["python", "./helloWorld.py"]
