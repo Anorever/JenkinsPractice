@@ -1,3 +1,3 @@
-FROM ansible:1.0 
+FROM ansible 
 ADD helloWorld.py /
 CMD ["python", "./helloWorld.py"]
